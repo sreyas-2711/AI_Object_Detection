@@ -22,9 +22,9 @@ Requirements
 Installation
 ------------
 1. Install Python 3.x if you haven't already.
-2. Install Streamlit using pip:
-   
-   pip install streamlit
+2. Install Streamlit using pip
+3. Install Opencv using pip
+4. Install Groq and llama api using pip
 
 Usage
 -----
