@@ -9,7 +9,7 @@ st.header('Object-image identification')
 
 uploaded_file = st.camera_input("Capture an Image")
 timestamp = time.strftime("%Y%m%d_%H%M%S")  
-image_path = f"images/captured_image_{timestamp}.jpg"
+image_path = f"captured_image_{timestamp}.jpg"
 if uploaded_file is not None:
     # Save the image to a specified path
     with open(image_path, "wb") as f:
